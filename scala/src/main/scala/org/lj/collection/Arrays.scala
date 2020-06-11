@@ -23,6 +23,7 @@ object Arrays {
     val a = new Array[String](3)
     a.foreach(println _)
     //方式2. 直接赋值
+    //调用了伴生对象的apply()
     val b = Array(1, 2, 3)
     b.foreach(println _)
   }
