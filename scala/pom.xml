@@ -11,7 +11,9 @@
 
     <artifactId>scala</artifactId>
 
-    <!--需要声明scala的包,否则编译会报错-->
+    <!--需要声明scala的包,否则编译会报错Could not find artifact org.scala-lang:scala-library:jar:0.0.0 in central
+        编写代码ideal添加的scala sdk用于调试编译,这里添加了scala依赖,ideal中可不用再配置
+    -->
     <dependencies>
         <dependency>
             <groupId>org.scala-lang</groupId>
